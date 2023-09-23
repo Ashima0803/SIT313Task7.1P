@@ -1,0 +1,41 @@
+/* App.css */
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #929292;
+  color: white;
+  
+  margin: 5px;
+}
+.flex-container {
+  display: flex;
+  gap: 10px; 
+  margin: 10px; 
+  align-items: right; 
+  
+}
+.center-content {
+  display: flex;
+  gap: 10px; 
+  align-items: center;
+  
+  
+}
+.post-button,
+.login-button {
+  
+  border: none;
+  padding: 10px 20px;
+  background-color: #03182e;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ 
+  
+}
+.post-button:hover,
+.login-button:hover {
+  background-color: #005b50;
+}

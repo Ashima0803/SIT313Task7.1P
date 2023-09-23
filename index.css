@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto; 
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008179;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 87, 179, 0.514);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+a {
+  padding-left: 50%;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.input-group {
+  margin-bottom: 20px;
+  width: 300px; 
+  margin: 0 auto; 
+}
+
+.link {
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #008179;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
